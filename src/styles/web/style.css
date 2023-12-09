@@ -1,0 +1,434 @@
+
+/*
+Offer Area Two Style
+======================================================*/
+
+/* Main Contact Area Style
+===================================================== */
+.main-contact-area .contact-wrap {
+  max-width: unset;
+}
+.main-contact-area .contact-wrap .section-title {
+  text-align: center !important;
+  max-width: 600px;
+}
+.main-contact-area .contact-wrap .section-title h2 {
+  margin-bottom: 10px;
+}
+.main-contact-area .contact-wrap .form-group {
+  margin-bottom: 30px;
+}
+.main-contact-area .contact-wrap .default-btn {
+  margin: auto;
+  display: table;
+  cursor: pointer;
+}
+.main-contact-area .contact-wrap .contact-form {
+
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  padding: 50px;
+  border-radius: 4px;
+}
+.main-contact-area .contact-wrap .contact-form #msgSubmit {
+  position: unset;
+  text-align: center;
+  margin-top: 20px;
+}
+.main-contact-area .contact-wrap .contact-form .hidden {
+  display: none;
+}
+.main-contact-area .contact-wrap .form-control {
+  border-radius: 4px !important;
+} 
+
+/*
+Contact Info Area Style 
+================================*/
+/* .contact-info-area .single-contact-info {
+  text-align: center;
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  padding: 30px;
+  transition: all 0.5s;
+  border-radius: 4px;
+}
+.contact-info-area .single-contact-info i {
+  display: block;
+  color: #1dd3f8;
+  transition: all 0.5s;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 20px;
+  line-height: 50px;
+  border: 2px dotted #1dd3f8;
+  border-radius: 50%;
+}
+.contact-info-area .single-contact-info h3 {
+  transition: all 0.5s;
+}
+.contact-info-area .single-contact-info p {
+  margin: 0;
+}
+.contact-info-area .single-contact-info a {
+  color: #4d4d4d;
+  transition: all 0.5s;
+}
+.contact-info-area .single-contact-info:hover {
+  background-color: #1dd3f8;
+}
+.contact-info-area .single-contact-info:hover i {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.contact-info-area .single-contact-info:hover h3 {
+  color: #ffffff;
+}
+.contact-info-area .single-contact-info:hover p {
+  color: #ffffff;
+}
+.contact-info-area .single-contact-info:hover a {
+  color: #ffffff;
+}
+
+#map {
+  height: 445px;
+} */
+
+/*
+404 Error Area Style
+=====================================================*/
+
+
+
+
+
+
+/*
+Business  Area Style
+======================================================*/
+
+/*
+About Area Style
+======================================================*/
+
+
+/* Navbar  */
+
+.navbar-toggler {
+  border: none;
+  background: #eee !important;
+  padding: 10px;
+  border-radius: 0;
+}
+.navbar-toggler .icon-bar {
+  width: 28px;
+  transition: all 0.3s;
+  background: #1dd3f8;
+  height: 2px;
+  display: block;
+}
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+  left: 4px;
+  position: relative;
+}
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  margin: 6px 0;
+}
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+  left: 4px;
+  position: relative;
+}
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+  left: 0;
+}
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+  left: 0;
+} 
+
+
+/*
+Keyframes Area Style
+======================================================*/
+/* @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@keyframes movebounceShort {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes moVebounce {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes animationFramesOne {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  80% {
+    transform: translate(-300px, 0px) rotate(360deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+@keyframes focus-one {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes animationFramesOne {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  20% {
+    transform: translate(73px, -1px) rotate(36deg);
+  }
+  40% {
+    transform: translate(141px, 72px) rotate(72deg);
+  }
+  60% {
+    transform: translate(83px, 122px) rotate(108deg);
+  }
+  80% {
+    transform: translate(-40px, 72px) rotate(144deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+@keyframes border-transform {
+  0%, 100% {
+    border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+  }
+  14% {
+    border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+  }
+  28% {
+    border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+  }
+  42% {
+    border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+  }
+  56% {
+    border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+  }
+  70% {
+    border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+  }
+  84% {
+    border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+  }
+} */
+
+
+/*
+Section Title Area Style
+======================================================*/
+.section-title {
+  max-width: 625px;
+  margin: -9px auto 60px;
+  text-align: center;
+  position: relative;
+}
+.section-title span {
+  font-size: 14px;
+  color: #1dd3f8;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.section-title h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  position: relative;
+  display: block;
+}
+.section-title h2:last-child {
+  margin-bottom: 0;
+}
+
+
+/*
+Default Btn Area Style
+======================================================*/
+
+/* 
+.default-btn::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -40px;
+  width: 10px;
+  height: 100px;
+  background-color: #ffffff;
+  opacity: 0.5;
+  transition: all 0.6s ease;
+  transform: rotate(45deg);
+}
+.default-btn::after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: -40px;
+  width: 10px;
+  height: 100px;
+  background-color: #ffffff;
+  opacity: 0.5;
+  transition: all 0.6s ease;
+  transform: rotate(45deg);
+}
+.default-btn.active {
+  background-color: #ffffff;
+  color: #1dd3f8;
+}
+.default-btn.active:hover {
+  color: #ffffff;
+  background-color: #1dd3f8;
+}
+.default-btn:hover {
+  color: #ffffff;
+  transition: all 0.6s ease;
+}
+.default-btn:hover::before {
+  left: 200px;
+}
+.default-btn:hover::after {
+  right: 200px;
+}
+
+.popup-youtube {
+  cursor: pointer;
+} */
+
+/* 
+Go Top Style
+====================================================== */
+.scroll-to-top .top {
+  position: fixed;
+  cursor: pointer;
+  bottom: 15px;
+  right: 15px;
+  background-color: #212121;
+  z-index: 4;
+  width: 40px;
+  text-align: center;
+  height: 42px;
+  line-height: 42px;
+  transition: 0.9s;
+}
+.scroll-to-top .top i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  color: #ffffff;
+  transition: 0.5s;
+  font-size: 20px;
+}
+.scroll-to-top .top i:last-child {
+  opacity: 0;
+  visibility: hidden;
+  top: 60%;
+}
+.scroll-to-top .top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #1dd3f8;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.scroll-to-top .top:hover {
+  color: #ffffff;
+  background-color: #1dd3f8;
+}
+.scroll-to-top .top:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+.scroll-to-top .top:hover i:first-child {
+  opacity: 0;
+  top: 0;
+  visibility: hidden;
+}
+.scroll-to-top .top:hover i:last-child {
+  opacity: 1;
+  visibility: visible;
+  top: 50%;
+}
+.scroll-to-top .top:focus {
+  color: #ffffff;
+}
+.scroll-to-top .top:focus::before {
+  opacity: 1;
+  visibility: visible;
+}
+.scroll-to-top .top:focus i:first-child {
+  opacity: 0;
+  top: 0;
+  visibility: hidden;
+}
+.scroll-to-top .top:focus i:last-child {
+  opacity: 1;
+  visibility: visible;
+  top: 50%;
+}
+
+
+.ask-question .section-title {
+  margin: -9px auto 40px;
+}
+.sectionStyleNews {
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
+}
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #11142d;
+}
+
