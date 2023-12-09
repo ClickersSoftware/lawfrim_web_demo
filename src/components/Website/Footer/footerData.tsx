@@ -30,7 +30,7 @@ const createFooterData = () => {
       },
       {
         icon: <RiPhoneFill fontSize={25} />,
-        message: "(+961)03-339-199",
+        message: "(+961)70-593-597",
       },
       {
         icon: <RiMailFill fontSize={25} />,
