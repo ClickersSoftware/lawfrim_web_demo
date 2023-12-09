@@ -16,14 +16,14 @@ const getContactData = () => {
         title: t('Main'),
         address: t('address'),
         phone: "(+961)03-339-199",
-        email: "Ghazallawfirm@gmail.com",
+        email: "Clickers_software@outlook.com",
         workHours:""
       },
       secondAddress: {
         title: t('branch'),
         address: t('address2'),
         phone: "(+961)03-339-199",
-        email: "Ghazallawfirm@gmail.com",
+        email: "Clickers_software@outlook.com",
         workHours:""
 
       },

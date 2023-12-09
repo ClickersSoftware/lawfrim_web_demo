@@ -144,7 +144,7 @@ function createMarkup(html:any) {
             {typeof window !== 'undefined' && (
               <>
                 <li style={{ marginRight: "10px" }} className="twitter">
-                <Link href={`https://twitter.com/share?url=https://www.ghazal-lawfirm.com${path}`} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+                <Link href={`https://twitter.com/share?url=https://lawfrim-xi.vercel.app/${path}`} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
                     <FaXTwitter />
                 </Link>
             </li>

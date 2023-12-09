@@ -1,7 +1,7 @@
 "use client"
 import { BsLinkedin, BsDribbble, BsFacebook, BsInstagram } from "react-icons/bs";
 import { RiMailFill, RiMapPinUserFill, RiPhoneFill } from "react-icons/ri";
-import Logo from "../../../../public/Mainlogo.png";
+import Logo from "../../../../public/mainLogoDev.png";
 import { useTranslations } from "next-intl";
 
 const createFooterData = () => {
@@ -34,7 +34,7 @@ const createFooterData = () => {
       },
       {
         icon: <RiMailFill fontSize={25} />,
-        message: "Ghazallawfirm@gmail.com",
+        message: "Clickers_software@outlook.com",
       },
     ],
     socialLinks: [

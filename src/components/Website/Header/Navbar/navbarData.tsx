@@ -1,5 +1,5 @@
 import { usePathname } from "next/navigation";
-import MainLogo from "../../../../../public/Mainlogo.png";
+import MainLogo from "../../../../../public/mainLogoDev.png";
 import { useTranslations } from "next-intl";
 
 const NavbarData = () => {

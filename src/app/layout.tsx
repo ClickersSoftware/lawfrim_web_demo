@@ -11,8 +11,8 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: 'Ghazal LawFirm مكتب الغزال للمحاماة',
-  description: 'Ghazal LawFirm مكتب الغزال للمحاماة',
+  title: 'LawFirm مكتب  المحاماة',
+  description: 'LawFirm مكتب  المحاماة',
 };
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
     <>
     
     <head>
-        <title>Ghazal LawFirm مكتب الغزال للمحاماة</title>
+        <title> LawFirm مكتب  المحاماة</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" href="/fav.png" />
       </head>

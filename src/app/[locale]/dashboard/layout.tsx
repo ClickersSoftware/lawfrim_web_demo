@@ -18,8 +18,8 @@ type Props = {
 }
 
 export const metadata: Metadata = {
-  title: "Ghazal LawFirm",
-  description: "Ghazal LawFirm",
+  title: 'LawFirm مكتب  المحاماة',
+  description: 'LawFirm مكتب  المحاماة',
 };
 
 async function getMessages(locale: string) {

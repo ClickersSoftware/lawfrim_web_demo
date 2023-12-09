@@ -40,7 +40,7 @@ export const authOptions: NextAuthOptions = {
     },
     providers: [
       CredentialsProvider({
-        name: "Ghazal LawFirm",
+        name: "LawFirm",
         credentials: {
           userName: {
             label: "Username",

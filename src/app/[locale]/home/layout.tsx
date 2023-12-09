@@ -30,8 +30,8 @@ type Props = {
 };
 
 export const metadata: Metadata = {
-  title: 'Ghazal LawFirm مكتب الغزال للمحاماة',
-  description: 'Ghazal LawFirm مكتب الغزال للمحاماة',
+  title: 'LawFirm مكتب  المحاماة',
+  description: 'LawFirm مكتب  المحاماة',
 };
 
 async function getMessages(locale: string) {
@@ -54,7 +54,7 @@ export default async function RootLayout({ children, params: { locale } }: Props
   return (
     <html lang={lang}>
       <head>
-        <title>Ghazal LawFirm مكتب الغزال للمحاماة</title>
+        <title>LawFirm مكتب  المحاماة</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </head>
           <NextIntlClientProvider locale={locale ? locale : 'en'} messages={messages}>
