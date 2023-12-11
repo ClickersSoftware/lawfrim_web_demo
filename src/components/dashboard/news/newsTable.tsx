@@ -25,6 +25,7 @@ import { useLocale, useTranslations } from "next-intl";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import { usePathname } from "next/navigation";
 import Image from 'next/image'
+import Swal from "sweetalert2";
 
 export default function NewsTable({
   dataRows,
@@ -186,7 +187,29 @@ export default function NewsTable({
                     size="small"
                     color="error"
                     className="error"
-                    onClick={() => deleteAlert(deleteTask(news.newsId))}
+                    // onClick={() => deleteAlert(deleteTask(news.newsId))}
+                      
+                    onClick={async() => {
+                      await Swal.fire({
+                        title: t('deleteTitle'),
+                        text: t('deleteTitle2'),
+                        icon: "warning",
+                        showCancelButton: true,
+                        confirmButtonColor: "#3085d6",
+                        cancelButtonColor: "#d33",
+                        confirmButtonText: t('delete'),
+                        focusConfirm: true,
+                        allowEscapeKey: true,
+                        cancelButtonText:t('cancel')
+                        
+                      }).then((result) => {
+                        if (result.isConfirmed && result.value === true) {
+                          console.log(result)
+                          deleteTask(news.newsId);
+                          Swal.fire(t('deleteSuccess'));
+                        }
+                      });
+                    }}
                   >
                     <DeleteIcon fontSize="inherit" />
                   </IconButton>

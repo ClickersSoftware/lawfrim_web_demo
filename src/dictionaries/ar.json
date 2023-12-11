@@ -170,7 +170,10 @@
     "edit": "تعديل",
     "arabic":"العربية",
     "english":"اﻹنكليزية",
-    "lang":"اللغة"
+    "lang":"اللغة",
+    "deleteTitle":"هل أنت متأكد من حذف الخبر؟",
+    "deleteTitle2":"لا يمكنك إسترجاع الخب؟",
+    "deleteSuccess":"تم المسح الخبر بنجاح"
   },
 
   "subscribersPage":{

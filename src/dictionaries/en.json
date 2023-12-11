@@ -50,9 +50,9 @@
     "arabic":"arabic",
     "english":"english",
     "lang":"Language",
-    "deleteTitle":"Are you sure to delete the blog",
+    "deleteTitle":"Are you sure to delete the News",
     "deleteTitle2":"You won't be able to revert this!",
-    "deleteSuccess":"Deleted!, Your blog has been deleted., success"
+    "deleteSuccess":"Deleted!, Your news has been deleted., success"
    
 
   },
@@ -176,7 +176,10 @@
     "edit": "Edit",
     "lang":"Language",
     "arabic":"Arabic",
-    "english":"English"
+    "english":"English",
+    "deleteTitle":"Are you sure to delete the blog",
+    "deleteTitle2":"You won't be able to revert this!",
+    "deleteSuccess":"Deleted!, Your blog has been deleted., success"
   },
 
   "subscribersPage": {
